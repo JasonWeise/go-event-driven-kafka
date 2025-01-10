@@ -1,34 +1,27 @@
 # Building Event-Driven Applications In Go
 This is the repository for the LinkedIn Learning course `Building Event-Driven Applications In Go`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![Building Event-Driven Applications In Go][lil-thumbnail-url] 
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+Level up as an advanced Go developer in this course with instructor Michael Okuboyejo. Michael guides you through the essentials of event-driven architecture, focusing on key patterns such as event sourcing and command and query responsibility segregation (CQRS). Learn about the fundamentals of producing and consuming events efficiently using popular Go libraries and Kafka as a message broker. Along the way, Michael outlines practical strategies for ensuring system resilience and consistency, error handling in an event-driven context, and deploying applications effectively. By the end of this course, you’ll be equipped with the skills required to build robust event-driven applications in Go and ensure they’re ready for scalable production environments.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+Learning objectives
+- Analyze the principles of event-driven architecture, including event sourcing and command and query responsibility segregation (CQRS) patterns, to design scalable and resilient systems.
+- Construct event-driven applications in Go, utilizing the official Kafka Go Client and Kafka as a message broker, to efficiently produce and consume events.
+- Evaluate strategies for ensuring system resilience, consistency, error handling, and deployment of event-driven applications in production environments.
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+### Instructor
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+Michael Okuboyejo
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Software engineer focused on building web services
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/michael-okuboyejo?u=104).
+
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/building-event-driven-applications-in-go
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQEf4a2A8TXjTw/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1729186339669?e=2147483647&v=beta&t=DWbpGwxoJn-WqW6KE3iGLAZUCoGs1rZcWkEE0cZuKC0
 
