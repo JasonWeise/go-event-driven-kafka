@@ -2,3 +2,7 @@
 node_modules
 .tmp
 npm-debug.log
+/.idea/.gitignore
+/.idea/go-event-driven-kafka.iml
+/.idea/modules.xml
+/.idea/vcs.xml
